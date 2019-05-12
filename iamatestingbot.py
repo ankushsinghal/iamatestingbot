@@ -5,7 +5,7 @@ num_comments = 25
 
 def authenticate():
 	print("Authenticating...")
-	reddit = praw.Reddit("iamatestingbot", user_agent = "Testing Reddit Bot")
+	reddit = praw.Reddit("iamatestingbot", user_agent = "Testing Reddit Bot by /u/iamatestingbot")
 	print("Authenticated as {}".format(reddit.user.me()))
 	return reddit
 
